@@ -8,7 +8,7 @@ A WiFi cracking script which eases the process of bruteforcing and capturing han
 ## Instructions:
 * Clone this repository.
 ```
-git clone https://github.com/LethargicGuy/CrackEasy.git
+git clone https://github.com/theParanoidScripts/CrackEasy.git
 ```
 * Change file permissions to executable.
 ```
