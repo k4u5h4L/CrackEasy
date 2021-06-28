@@ -50,7 +50,7 @@ then
 	  echo "The package $package is installed"
 	else
 	  echo "The package $package is not installed"
-	  pacman -Sy xterm
+	  pacman -S xterm
 	fi
 	package=aircrack-ng
 	if pacman -Qs $package > /dev/null ;
@@ -58,7 +58,7 @@ then
 	  echo "The package $package is installed"
 	else
 	  echo "The package $package is not installed"
-	  pacman -Sy aircrack-ng
+	  pacman -S aircrack-ng
 	fi
 	package=cowsay
 	if pacman -Qs $package > /dev/null ;
@@ -66,7 +66,7 @@ then
 	  echo "The package $package is installed"
 	else
 	  echo "The package $package is not installed"
-	  pacman -Sy cowsay
+	  pacman -S cowsay
 	fi
 fi
 
